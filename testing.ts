@@ -14,5 +14,6 @@ function run(): typeNumber {
 
 function handleEvent(event: DomEvent) {
   console.log(event.type);
+  console.log(event);
   console.log(event.target);
 }
